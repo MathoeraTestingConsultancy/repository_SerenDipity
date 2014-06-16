@@ -30,6 +30,9 @@ public class EventListActivity extends FragmentActivity
      */
     private boolean mTwoPane;
 
+    /* (non-Javadoc)
+     * @see android.support.v4.app.FragmentActivity#onCreate(android.os.Bundle)
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,6 +58,9 @@ public class EventListActivity extends FragmentActivity
     /**
      * Callback method from {@link EventListFragment.Callbacks}
      * indicating that the item with the given ID was selected.
+     */
+    /* (non-Javadoc)
+     * @see com.example.serendipity.events.EventListFragment.Callbacks#onItemSelected(java.lang.String)
      */
     @Override
     public void onItemSelected(String id) {

@@ -2,5 +2,7 @@
 
     <string name="app_name">Serendipity Events</string>
     <string name="title_event_detail">Events detail</string>
+    <color name="Rood">#FF0000</color>
+    <color name="Green">#00FF00</color>
 
 </resources>

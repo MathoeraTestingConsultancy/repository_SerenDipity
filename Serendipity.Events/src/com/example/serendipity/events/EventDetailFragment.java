@@ -15,6 +15,10 @@ import com.example.serendipity.events.dummy.DummyContent;
  * in two-pane mode (on tablets) or a {@link EventDetailActivity}
  * on handsets.
  */
+/**
+ * @author mathoeraro
+ *
+ */
 public class EventDetailFragment extends Fragment {
     /**
      * The fragment argument representing the item ID that this fragment
@@ -34,6 +38,9 @@ public class EventDetailFragment extends Fragment {
     public EventDetailFragment() {
     }
 
+    /* (non-Javadoc)
+     * @see android.support.v4.app.Fragment#onCreate(android.os.Bundle)
+     */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,6 +53,9 @@ public class EventDetailFragment extends Fragment {
         }
     }
 
+    /* (non-Javadoc)
+     * @see android.support.v4.app.Fragment#onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)
+     */
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
